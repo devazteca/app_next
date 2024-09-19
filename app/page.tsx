@@ -30,6 +30,8 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
+
+          {/* Imagen para dispositivos de escritorio */}
           <Image
             src="/hero-desktop.png"
             width={1000}
@@ -37,6 +39,8 @@ export default function Page() {
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
           />
+
+          {/* Imagen para dispositivos mobiles */}
           <Image
             src="/hero-mobile.png"
             width={560}
